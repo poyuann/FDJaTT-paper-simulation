@@ -1,0 +1,8 @@
+<launch>
+
+    <node pkg="ros_tutorial" type="ros_uav_pub" name="ros_uav_pub" output="screen" >
+    </node>
+    
+    <node pkg="ros_tutorial" type="ros_uav_sub"  name ="ros_uav_sub" output="screen" >
+	</node>
+</launch>

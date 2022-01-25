@@ -209,3 +209,9 @@ add_executable(ros_listener src/listener.cpp)
 target_link_libraries(ros_listener ${catkin_LIBRARIES})
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+add_executable(ros_uav_pub src/uav_pub.cpp)
+target_link_libraries(ros_uav_pub ${catkin_LIBRARIES})
+
+add_executable(ros_uav_sub src/uav_sub.cpp)
+target_link_libraries(ros_uav_sub ${catkin_LIBRARIES})
